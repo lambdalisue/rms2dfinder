@@ -40,19 +40,27 @@ def onselect(vmin, vmax):
     mmrms = np.min(totals) / len(totals)
     found = np.argmin(totals) + vmin
 
+    bboxprops = dict(
+        boxstyle='round',
+        facecolor='w',
+        linewidth=0,
+        alpha=0.5,
+    )
     t = onselect.ax.text(
         vmin + (vmax - vmin) / 2,
         vmin + (vmax - vmin) / 2,
         "RMSd: %.2f\nFrame: %d\nIn: %d-%d" % (mmrms, found, vmin, vmax),
         fontsize=10,
         va='center', ha='center',
-        color='w',
+        color='k',
+        bbox=bboxprops,
     )
     r = Rectangle(
         (vmin, vmin),
         vmax-vmin, vmax-vmin,
-        alpha=0.4,
-        color=next(onselect.colors)
+        alpha=0.5,
+        color=next(onselect.colors),
+        fill=False,
     )
     r.text = t
     onselect.rects.append(r)
@@ -63,12 +71,6 @@ def onselect(vmin, vmax):
 def plot_rms2d(fname):
     # load Amber 14 rms2d output (remove the first index line)
     data = np.loadtxt(fname)[:, 1:]
-
-    # # single column graphics maximum wide = 3.33 in
-    # figure_width = 3.33
-    # figure_height = figure_width / 1.414    # silver
-    # figure_height = figure_width / 1.618    # gold
-    # pl.figure(figsize=(figure_width, figure_height))
 
     ax = pl.gca()
     im = ax.imshow(data, origin='lower')
