@@ -24,7 +24,7 @@ rms2dfinder
 You can visually classify the trajectories into several clusters of structures and can find out a most stable structure in each cluster by finding out the frame which has a smallest value of total RMSd in each cluster.
 However, it is a tough job to find out **exact** frame number which has a smallest value.
 
-``rms2dfinder`` will help you to find the frame numbers which has minimum mean RMSd in each cluster. What you need to do is just select the region on rms2d plot and the software tell you
+``rms2dfinder`` will help you to find the frame numbers which have minimum mean RMSd in each cluster. What you need to do is just select the region on rms2d plot and the software tells you
 
 -   A minimum mean RMSd (Mean value of summed up RMSd in the region)
 -   A frame number which has the minimum mean RMSd
@@ -68,14 +68,12 @@ Usage
     optional arguments:
     -h, --help  show this help message and exit
 
-    (C) 2014, hashnote.net, Alisue
-
 
 License
 --------
 The MIT License (MIT)
 
-Copyright (c) 2014 hashnote.net, Alisue
+Copyright (C) 2014 hashnote.net, Alisue
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
