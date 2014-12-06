@@ -1,5 +1,12 @@
 rms2dfinder
 ===============
+.. image:: https://pypip.in/py_versions/rms2dfinder/badge.svg
+    :target: https://pypi.python.org/pypi/rms2dfinder/
+    :alt: Supported Python versions
+
+.. image:: https://pypip.in/status/rms2dfinder/badge.svg
+    :target: https://pypi.python.org/pypi/rms2dfinder/
+    :alt: Development Status
 .. image:: https://pypip.in/d/rms2dfinder/badge.png
     :target: https://pypi.python.org/pypi/rms2dfinder/
     :alt: Downloads
@@ -19,6 +26,15 @@ rms2dfinder
 .. image:: https://pypip.in/license/rms2dfinder/badge.png
     :target: https://pypi.python.org/pypi/rms2dfinder/
     :alt: License
+
+.. image:: https://requires.io/github/lambdalisue/rms2dfinder/requirements.svg?branch=master
+    :target: https://requires.io/github/lambdalisue/rms2dfinder/requirements/?branch=master
+    :alt: Requirements Status
+
+.. image:: https://landscape.io/github/lambdalisue/rms2dfinder/master/landscape.png
+    :target: https://landscape.io/github/lambdalisue/rms2dfinder/master
+    :alt: Code Health
+
 
 ``rms2d`` command in ``cpptraj`` of Amber is quite useful to find several structural clusters.
 You can visually classify the trajectories into several clusters of structures and can find out a most stable structure in each cluster by finding out the frame which has a smallest value of total RMSd in each cluster.
