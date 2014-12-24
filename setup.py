@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 
 NAME = 'rms2dfinder'
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 
 
 def read(filename):
