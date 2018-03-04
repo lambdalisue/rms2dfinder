@@ -1,21 +1,21 @@
 rms2dfinder
 ===============
-.. image:: https://pypip.in/py_versions/rms2dfinder/badge.svg
+.. image:: https://img.shields.io/pypi/pyversions/rms2dfinder.svg
     :target: https://pypi.python.org/pypi/rms2dfinder/
     :alt: Supported Python versions
 
-.. image:: https://pypip.in/status/rms2dfinder/badge.svg
+.. image:: https://img.shields.io/pypi/status/rms2dfinder.svg
     :target: https://pypi.python.org/pypi/rms2dfinder/
     :alt: Development Status
-.. image:: https://pypip.in/d/rms2dfinder/badge.png
+.. image:: https://img.shields.io/pypi/dm/rms2dfinder.svg
     :target: https://pypi.python.org/pypi/rms2dfinder/
     :alt: Downloads
 
-.. image:: https://pypip.in/v/rms2dfinder/badge.png
+.. image:: https://img.shields.io/pypi/v/rms2dfinder.svg
     :target: https://pypi.python.org/pypi/rms2dfinder/
     :alt: Latest version
 
-.. image:: https://pypip.in/wheel/rms2dfinder/badge.png
+.. image:: https://img.shields.io/pypi/wheel/rms2dfinder.svg
     :target: https://pypi.python.org/pypi/rms2dfinder/
     :alt: Wheel Status
 
@@ -23,7 +23,7 @@ rms2dfinder
     :target: https://pypi.python.org/pypi/rms2dfinder/
     :alt: Egg Status
 
-.. image:: https://pypip.in/license/rms2dfinder/badge.png
+.. image:: https://img.shields.io/pypi/l/rms2dfinder.svg
     :target: https://pypi.python.org/pypi/rms2dfinder/
     :alt: License
 
